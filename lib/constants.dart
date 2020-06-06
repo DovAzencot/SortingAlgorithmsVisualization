@@ -27,22 +27,13 @@ final List<SortingAlgorithm> sortingAlgorithmsList = [
   SortingAlgorithm(
     title: selectionSortTitle,
     complexity: nsquare,
-    resources: [
-      Resource('GeeksForGeeks', 'https://www.geeksforgeeks.org/bubble-sort/'),
-    ],
   ),
   SortingAlgorithm(
     title: insertionSortTitle,
     complexity: nsquare,
-    resources: [
-      Resource('GeeksForGeeks', 'https://www.geeksforgeeks.org/bubble-sort/'),
-    ],
   ),
   SortingAlgorithm(
     title: bubbleSortTitle,
     complexity: logNsquare,
-    resources: [
-      Resource('GeeksForGeeks', 'https://www.geeksforgeeks.org/bubble-sort/'),
-    ],
   ),
 ];

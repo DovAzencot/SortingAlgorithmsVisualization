@@ -1,7 +1,6 @@
 class SortingAlgorithm {
   String title, complexity;
-  List<Resource> resources;
-  SortingAlgorithm({this.title, this.complexity, this.resources});
+  SortingAlgorithm({this.title, this.complexity});
 }
 
 class Resource {

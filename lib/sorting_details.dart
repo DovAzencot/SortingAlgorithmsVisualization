@@ -122,25 +122,6 @@ class SortDetailsScreenState extends State<SortDetailsScreen> {
             icon: Icon(Icons.shuffle),
             onPressed: () => disableButtons ? null : shuffle(),
           ),
-          // FloatingActionButton(
-          //   heroTag: 'details',
-          //   backgroundColor: primaryDark,
-          //   child: Icon(Icons.info_outline),
-          //   onPressed: () {
-          //     showModalBottomSheet(
-          //         context: context,
-          //         builder: (BuildContext bc) {
-          //           return Container(
-          //             height: MediaQuery.of(context).size.height / 2,
-          //             decoration: BoxDecoration(
-          //                 color: primary,
-          //                 borderRadius: BorderRadius.only(
-          //                     topLeft: Radius.circular(8.0),
-          //                     topRight: Radius.circular(8.0))),
-          //           );
-          //         });
-          //   },
-          // ),
         ],
       ),
     );
